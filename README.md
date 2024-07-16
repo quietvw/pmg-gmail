@@ -1,5 +1,4 @@
-# pmg-gmail
-G-mail Trusted Hosts for Proxmox Mail Gateway
+# Proxmox Mail Gateway Trusted Relay Hosts for Google Workspace
 
 Tested on Proxmox Mail Gateway 8.1.2
 
