@@ -5,7 +5,7 @@ Tested on Proxmox Mail Gateway 8.1.2
 **Features**
 
 - Automatically delete all trusted hosts
-- Populate with Google IPV4 addresses from _spf.google.com
+- Populate with Google IPV4 & IPV6 addresses from _spf.google.com
 - Please see https://apps.google.com/supportwidget/articlehome?hl=en&article_url=https%3A%2F%2Fsupport.google.com%2Fa%2Fanswer%2F60764%3Fhl%3Den&assistant_id=generic-unu&product_context=60764&product_name=UnuFlow&trigger_context=a
 
 **Installation**
