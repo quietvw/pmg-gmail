@@ -1,0 +1,12 @@
+[Unit]
+Description=Proxmox Google Updator
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/pmg-gmail
+Restart=on-failure
+RestartSec=3s
+
+[Install]
+WantedBy=multi-user.target
