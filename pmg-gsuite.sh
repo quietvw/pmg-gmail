@@ -41,10 +41,16 @@ query_spf_and_include() {
 
 
 
-    # Print ip4 addresses
+    # ip4 addresses
     for ip4 in $ip4_addresses; do
         echo "ip4: $ip4"
-        pmgsh create /config/mynetworks --cidr $ip4 --comment "GOOGLE"
+        pmgsh create /config/mynetworks --cidr $ip4 --comment "GOOGLE IPV4"
+    done
+
+    # ip6 addresses
+    for ip6 in $ip6_addresses; do
+        echo "ip6: $ip6"
+        pmgsh create /config/mynetworks --cidr $ip6 --comment "GOOGLE IPV6"
     done
 
 
