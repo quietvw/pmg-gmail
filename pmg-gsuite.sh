@@ -1,4 +1,4 @@
-```#!/bin/bash
+#!/bin/bash
 while true
 do
 # Fetch mynetworks configuration using pmgsh
@@ -64,4 +64,4 @@ query_spf_and_include "$initial_domain" "$dns_server"
 
 echo "Sleeping for 8 hours..."
 sleep 5d
-done```
+done
